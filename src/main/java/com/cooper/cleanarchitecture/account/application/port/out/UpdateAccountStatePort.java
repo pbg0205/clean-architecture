@@ -1,4 +1,9 @@
 package com.cooper.cleanarchitecture.account.application.port.out;
 
-public class UpdateAccountStatePort {
+import com.cooper.cleanarchitecture.account.domain.Account;
+
+public interface UpdateAccountStatePort {
+
+    void updateActivities(Account account);
+
 }
