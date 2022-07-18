@@ -1,6 +1,7 @@
 package com.cooper.cleanarchitecture.account.adapter.out.persistence;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
@@ -12,6 +13,7 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "activity")
+@Getter
 @AllArgsConstructor
 @NoArgsConstructor
 class ActivityJpaEntity {
