@@ -1,13 +1,11 @@
 package com.cooper.cleanarchitecture.account.domain;
 
-import lombok.Builder;
-import lombok.Getter;
 import lombok.NonNull;
+import lombok.Value;
 
 import java.math.BigInteger;
 
-@Builder
-@Getter
+@Value
 public class Money {
 
     public static Money ZERO = Money.of(0L);
